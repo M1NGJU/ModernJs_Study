@@ -6,3 +6,7 @@ console.log(arr1);
 // 첫 번째 값 변경
 arr1[0] = "bird";
 console.log(arr1);
+
+// 값 추가
+arr1.push("monkey");
+console.log(arr1);
