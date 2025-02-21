@@ -13,3 +13,5 @@ console.log(obj1);
 // 속성 추가
 obj1.address = "seoul";
 console.log(obj1);
+
+//const는 객체나 배열 등 오브젝트 타입이라 불리는 데이터들은 const로 정의해도 도중에 값 변경 가능
