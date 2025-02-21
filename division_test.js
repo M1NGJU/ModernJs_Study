@@ -7,3 +7,9 @@ const myProfile = {
     name: "김민주",
     age: 19
 };
+
+// 객체 분할 대입
+const {name, age} = myProfile;
+
+const message = `내 이름은 ${name}입니다. 나이는 ${age}입니다.`;
+console.log(message);
