@@ -7,5 +7,5 @@ console.log(val3);
 // console.log(val3);
 
 // const에서의 재선언
-const val3 = "const 변수 재선언"
-console.log(val3);
+// const val3 = "const 변수 재선언"
+// console.log(val3);
