@@ -5,3 +5,7 @@ const obj1 = {
     age:19,
 };
 console.log(obj1);
+
+// 속성값 변경
+obj1.name = "minju";
+console.log(obj1);
