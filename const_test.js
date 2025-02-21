@@ -9,3 +9,5 @@ console.log(val3);
 // const에서의 재선언
 // const val3 = "const 변수 재선언"
 // console.log(val3);
+
+// const는 재선언, 덮어 쓰기 모두 불가능 가장 엄격한 변수
