@@ -10,3 +10,5 @@ console.log(arr1);
 // 값 추가
 arr1.push("monkey");
 console.log(arr1);
+
+// 배열도 마찬가지로 const로 정의 했어도 값은 자유롭게 변경 가능
