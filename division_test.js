@@ -9,7 +9,10 @@ const myProfile = {
 };
 
 // 객체 분할 대입
-const {name, age} = myProfile;
+// const {name, age} = myProfile;
 
 const message = `내 이름은 ${name}입니다. 나이는 ${age}입니다.`;
 console.log(message);
+
+// 일부만 추출
+const { age } = myProfile;
