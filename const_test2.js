@@ -9,3 +9,7 @@ console.log(obj1);
 // 속성값 변경
 obj1.name = "minju";
 console.log(obj1);
+
+// 속성 추가
+obj1.address = "seoul";
+console.log(obj1);
