@@ -11,10 +11,19 @@
 // console.log(arr6);
 
 // 두 개의 배열 결합
-const arr4 = [10,20];
-const arr5 = [30,40];
+// const arr4 = [10,20];
+// const arr5 = [30,40];
 
 // 스프레드 구문을 이용해 결합
-const arr7 = [...arr4,...arr5];
+// const arr7 = [...arr4,...arr5];
 
-console.log(arr7);
+// console.log(arr7);
+
+// 여러 객체의 결합
+const obj4 = {val1:10, val2:20};
+const obj5 = {val1:30, val2:40};
+
+// 스프레드 구문을 이용해 복사
+const obj6 = {...obj4};
+
+console.log(obj6);
