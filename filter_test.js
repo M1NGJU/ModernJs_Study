@@ -20,5 +20,17 @@
 // }
 
 // map 함수의 인수를 이용해 요소 순서대로 추출
+// const nameArr = ["김민주", "수민", "우영"];
+// nameArr.map((name,index)=>console.log(`${index+1}번째는 ${name}입니다.`));
+
+// map을 이용한 사양 구현 예
 const nameArr = ["김민주", "수민", "우영"];
-nameArr.map((name,index)=>console.log(`${index+1}번째는 ${name}입니다.`));
+
+const newNameArr = nameArr.map((name)=>{
+    if(name === "김민주"){
+        return name;
+    } else{
+        return `${name}님`;
+    }
+});
+console.log(newNameArr);
