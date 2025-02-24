@@ -22,10 +22,17 @@
 
 // map함수 이용 방법3
 // 배열 정의
-const nameArr = ["김민주", "수민", "우영"];
+// const nameArr = ["김민주", "수민", "우영"];
 
 // 인수(name)에 배열의 값이 설정되고 return으로 반환
-const nameArr2 = nameArr.map((name) =>{
-    return name;
-});
-console.log(nameArr2);
+// const nameArr2 = nameArr.map((name) =>{
+//     return name;
+// });
+// console.log(nameArr2);
+
+// map함수 이용!!!!!!!!!!!!!
+// 배열 준비
+const nameArr =["김민주", "수민", "우영"];
+
+// map을 이용한 배열 처리
+nameArr.map((name)=> console.log(name));
