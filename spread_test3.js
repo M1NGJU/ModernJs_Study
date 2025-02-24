@@ -26,4 +26,8 @@ const obj5 = {val1:30, val2:40};
 // 스프레드 구문을 이용해 복사
 const obj6 = {...obj4};
 
+// 스프레드 구문을 이용해 결합
+const obj7 = {...obj4, ...obj5};
+
 console.log(obj6);
+console.log(obj7);
