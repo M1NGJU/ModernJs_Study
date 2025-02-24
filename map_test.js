@@ -16,6 +16,16 @@
 
 // map함수 이용 방법2
 // 배열 정의
-const nameArr= ["김민주", "수민", "우영"];
+// const nameArr= ["김민주", "수민", "우영"];
 // 배열.map(함수)로 이용한다
-const nameArr2 = nameArr.map(()=>{});
+// const nameArr2 = nameArr.map(()=>{});
+
+// map함수 이용 방법3
+// 배열 정의
+const nameArr = ["김민주", "수민", "우영"];
+
+// 인수(name)에 배열의 값이 설정되고 return으로 반환
+const nameArr2 = nameArr.map((name) =>{
+    return name;
+});
+console.log(nameArr2);
