@@ -13,8 +13,12 @@
 
 // for문의 index를 이용해 요소를 순서대로 추출
 // 인덱스를 다루어보자~~
+// const nameArr = ["김민주", "수민", "우영"];
+// // 정의한 index를 이용
+// for(let index=0; index<nameArr.length; index++){
+//     console.log(`${index +1}번째는 ${nameArr[index]}입니다.`);
+// }
+
+// map 함수의 인수를 이용해 요소 순서대로 추출
 const nameArr = ["김민주", "수민", "우영"];
-// 정의한 index를 이용
-for(let index=0; index<nameArr.length; index++){
-    console.log(`${index +1}번째는 ${nameArr[index]}입니다.`);
-}
+nameArr.map((name,index)=>console.log(`${index+1}번째는 ${name}입니다.`));
