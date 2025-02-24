@@ -9,7 +9,13 @@
 //     console.log(nameArr[index]);
 // }
 
-// map함수 이용 방법
-const nameArr= ["김민주", "수민", "우영"];
+// map함수 이용 방법1
+// const nameArr= ["김민주", "수민", "우영"];
 // 배열.map()으로 이용
-const nameArr2 = nameArr.map();
+// const nameArr2 = nameArr.map();
+
+// map함수 이용 방법2
+// 배열 정의
+const nameArr= ["김민주", "수민", "우영"];
+// 배열.map(함수)로 이용한다
+const nameArr2 = nameArr.map(()=>{});
