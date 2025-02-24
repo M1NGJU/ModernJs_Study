@@ -14,4 +14,7 @@ const arr1 = [1,2];
 const summaryFunc = (num1, num2) => console.log(num1+num2);
 
 // 일반적으로 배열값을 전달하는 경우
-summaryFunc(arr1[0],arr1[1]);
+// summaryFunc(arr1[0],arr1[1]);
+
+// 스프레드 구문을 이용하는 방법
+summaryFunc(...arr1);
