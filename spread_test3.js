@@ -20,14 +20,23 @@
 // console.log(arr7);
 
 // 여러 객체의 결합
-const obj4 = {val1:10, val2:20};
-const obj5 = {val1:30, val2:40};
+// const obj4 = {val1:10, val2:20};
+// const obj5 = {val1:30, val2:40};
 
 // 스프레드 구문을 이용해 복사
-const obj6 = {...obj4};
+// const obj6 = {...obj4};
 
 // 스프레드 구문을 이용해 결합
-const obj7 = {...obj4, ...obj5};
+// const obj7 = {...obj4, ...obj5};
 
-console.log(obj6);
-console.log(obj7);
+// console.log(obj6);
+// console.log(obj7);
+
+// 등호(=)를 이용해 복사하면 안 되는 이유를 알아보자!
+
+// = 를 이용한 복사 예제
+const arr4 = [10,20];
+
+// =로 복사
+const arr8 = arr4;
+console.log(arr8);
