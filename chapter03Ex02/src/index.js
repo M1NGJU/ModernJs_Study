@@ -3,3 +3,6 @@
 const buttonEl = document.createElement("button");
 // 버튼 라벨 설정
 buttonEl.textContent = "버튼";
+
+// 영역 1의 div 태그 얻기
+const div1El = document.querySelector(".container");
