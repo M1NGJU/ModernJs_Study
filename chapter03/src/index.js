@@ -12,3 +12,8 @@ console.log(title2);
 // getElementsByClassName 사용
 const containers = document.getElementsByClassName("container");
 console.log(containers);
+
+// querySelector를 이용한 엘리먼트 얻기
+// querySelector 사용
+const container = document.querySelector(".container");
+console.log(container);
