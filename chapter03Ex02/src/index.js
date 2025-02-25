@@ -10,3 +10,7 @@ const div1El = document.querySelector(".container");
 
 // div 태그 아래에 button 태그를 추가
 div1El.appendChild(buttonEl);
+
+// DOM 삭제 예제
+// h1 태그 삭제
+const h1El = document.getElementById("title");
