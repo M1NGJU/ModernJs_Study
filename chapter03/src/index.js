@@ -10,10 +10,15 @@ console.log(title2);
 
 //클래스명으로 엘리먼트 얻기
 // getElementsByClassName 사용
-const containers = document.getElementsByClassName("container");
-console.log(containers);
+// const containers = document.getElementsByClassName("container");
+// console.log(containers);
 
 // querySelector를 이용한 엘리먼트 얻기
 // querySelector 사용
 const container = document.querySelector(".container");
 console.log(container);
+
+// querySelectorAll을 이용한 엘리먼트 얻기
+// querySelectorAll 사용
+const containers = document.querySelectorAll(".container");
+console.log(containers);
